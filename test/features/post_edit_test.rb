@@ -1,7 +1,7 @@
 require "test_helper"
 
 feature "Editting a post" do
-  focus
+
   scenario "submit updates for an existing post" do
 
     # Given an existing post
@@ -9,6 +9,7 @@ feature "Editting a post" do
 
     # When I click edit and submit changed data
     visit post_path(@post)
+
     click_on 'Edit'
     fill_in 'Content', with: 'Means striving for excellence.'
 
