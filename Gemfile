@@ -25,8 +25,10 @@ gem 'jquery-rails'
 gem "minitest-rails"
 gem "capybara"
 
+
 group :development, :test do
   gem "minitest-rails"
+  gem "minitest-focus"
 end
 
 group :test do
