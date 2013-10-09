@@ -1,7 +1,7 @@
 require "test_helper"
 
 feature "Visiting the posts" do
-  focus
+
   scenario "Show existing posts" do
 
     # Create post

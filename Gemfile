@@ -24,6 +24,7 @@ gem 'jquery-rails'
 
 gem "minitest-rails"
 gem "capybara"
+gem "launchy"
 
 
 group :development, :test do
