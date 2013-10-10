@@ -4,15 +4,20 @@ feature "Visiting the posts" do
 
   scenario "Show existing posts" do
 
-    # Create post
-    Post.create(title: "Becoming a Code Fellow", content: "Means striving for excellence.")
-
     # Visit posts
     visit posts_path
 
+    # Create post
+    click_on 'New Post'
+    save_and_open_page
+    fill_in "Title", with: posts(:cf).title
+    fill_in "Content", with: posts(:cf).content
+    click_on 'Create Post'
+
+
     # View completed
-    page.text.must_include 'Becoming a Code Fellow'
-    page.text.must_include 'Means striving for excellence'
+    page.text.must_include posts(:cf).title
+    page.text.must_include posts(:cf).content
 
   end
 end
