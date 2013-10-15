@@ -28,7 +28,7 @@ feature "Create a project" do
     # When the form is submitted with a short name and missing technologies_used field
     click_on "Create Project"
 
-    save_and_open_page
+
     # Then the form should be displayed again, with an error message
     current_path.must_match /projects$/
     page.text.must_include "Project could not be saved"
