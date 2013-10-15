@@ -2,8 +2,35 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+* {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
 a:hover {
   text-decoration: none;
+}
+
+.header-wrapper {
+  display: block;
+  margin: 0 auto;
+  vertical-align: baseline;
+  margin-top: 90px;
+  width: 825px;
+}
+
+.header-wrapper img {
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.vert-text {
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-top: 40px;
 }
 
 .header-intro {
@@ -25,6 +52,7 @@ a:hover {
 .vert-text h1 {
   font-size: 3em;
   color: #fff;
+  text-align: left;
 }
 
 .vert-text h4 {
@@ -33,6 +61,7 @@ a:hover {
 
 .vert-text p {
   font-size: 1.2em;
+  text-align: left;
 }
 
 .vert-text .btn-default {
@@ -54,6 +83,20 @@ body > .btn-primary:hover {
   background-color: #000;
 }
 
+
+.callout-text {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+.callout-text a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2em;
+}
 
 
 /* Stylish Portfolio */
