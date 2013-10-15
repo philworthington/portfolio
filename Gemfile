@@ -14,6 +14,8 @@ gem 'jquery-rails'
 gem "minitest-rails"
 
 
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -46,6 +48,7 @@ end
 group :test do
   gem "minitest-rails-capybara"
   gem "turn"
+  gem 'simplecov', :require => false
 end
 
 # To use ActiveModel has_secure_password
