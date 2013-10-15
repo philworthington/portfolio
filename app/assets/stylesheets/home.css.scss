@@ -18,6 +18,10 @@ a:hover {
   font-size: 1.2em;
 }
 
+#top {
+  height: 400px;
+}
+
 .vert-text h1 {
   font-size: 3em;
   color: #fff;
@@ -165,7 +169,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../assets/bg4.png) no-repeat center center fixed;
+  background: url(../assets/bg1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

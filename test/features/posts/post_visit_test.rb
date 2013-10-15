@@ -9,7 +9,7 @@ feature "Visiting the posts" do
 
     # Create post
     click_on 'New Post'
-    save_and_open_page
+
     fill_in "Title", with: posts(:cf).title
     fill_in "Content", with: posts(:cf).content
     click_on 'Create Post'

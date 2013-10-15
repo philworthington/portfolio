@@ -8,7 +8,7 @@ feature "Deleting a post" do
     posts(:cf)
 
     visit posts_path
-    save_and_open_page
+
 
 
     # When the delete link is clicked

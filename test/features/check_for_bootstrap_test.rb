@@ -1,7 +1,7 @@
 require "test_helper"
 
 feature "Checking for bootstrap" do
-  focus
+
   scenario "bootstrap loading on root_path" do
 
     # Go to root path
