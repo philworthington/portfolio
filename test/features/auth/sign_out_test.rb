@@ -1,6 +1,6 @@
 require "test_helper"
 
-feature ("Ability for the user to sign out") do
+feature "Ability for the user to sign out" do
 
   scenario "sign out and destroy session" do
 
@@ -9,7 +9,7 @@ feature ("Ability for the user to sign out") do
     click_on "Sign Up"
 
     # Sign up user form
-     fill_in "Email", with: users(:one).email
+     fill_in "Email", with: "user2@example.com"
      fill_in "Password", with: users(:one).encrypted_password
      fill_in "Password confirmation", with: users(:one).encrypted_password
      click_on "Sign up"

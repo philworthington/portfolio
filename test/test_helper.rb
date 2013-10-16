@@ -21,6 +21,14 @@ class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
 end
 
+# signs in a user
+def sign_in_user
+  visit new_user_session_path
+  fill_in "Email", with: users(:one).email
+  fill_in "Password", with: "password"
+  click_on "Sign In"
+end
+
 class ActionDispatch::IntegrationTest
   include Rails.application.routes.url_helpers
   include Capybara::DSL

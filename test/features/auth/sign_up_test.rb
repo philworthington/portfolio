@@ -1,6 +1,6 @@
 require "test_helper"
 
-feature ("Ability to sign up for an account") do
+feature "Ability to sign up for an account" do
 
   scenario "sign up" do
 
@@ -9,7 +9,7 @@ feature ("Ability to sign up for an account") do
     click_on "Sign Up"
 
     # When I register with valid info
-    fill_in "Email", with: users(:one).email
+    fill_in "Email", with: "usertest@example.com"
     fill_in "Password", with: users(:one).encrypted_password
     fill_in "Password confirmation", with: users(:one).encrypted_password
     click_on "Sign up"
