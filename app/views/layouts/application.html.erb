@@ -243,11 +243,11 @@
       <% end %>
 
       <% if current_user.present? %>
-+        <%= link_to 'Sign Out', sign_out_path %>
-+      <% else %>
-+        <%= link_to 'Sign Up', new_user_registration_path %>
-+        <%= link_to 'Sign In', new_user_session_path %>
-+     <% end %>
+         <%= link_to 'Sign Out', sign_out_path %>
+       <% else %>
+         <%= link_to 'Sign Up', new_user_registration_path %>
+         <%= link_to 'Sign In', new_user_session_path %>
+      <% end %>
 
     <%= yield %>
 
