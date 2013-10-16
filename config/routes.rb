@@ -1,6 +1,12 @@
 Portfolio::Application.routes.draw do
+  devise_for :users
+
   resources :posts
   resources :projects
+
+  devise_scope :user do
+    get 'sign_out', to: 'devise/sessions#destroy', as: :sign_out
+  end
 
 
   "home/index"

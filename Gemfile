@@ -13,6 +13,7 @@ gem 'jquery-rails'
 
 gem "minitest-rails"
 
+gem 'devise'
 
 
 
