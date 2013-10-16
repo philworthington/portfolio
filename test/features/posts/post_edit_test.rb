@@ -4,12 +4,13 @@ feature "Editing a post" do
 
   scenario "submit updates for an existing post" do
 
+    sign_in_user
+
     # Create a post
     @post = posts(:cf)
 
     # When I click edit and submit changed data
     visit post_path(@post)
-
     click_on 'Edit'
     fill_in 'Content', with: "this is the content."
 

@@ -4,6 +4,8 @@ feature "Visiting the posts" do
 
   scenario "Show existing posts" do
 
+    sign_in_user
+
     # Visit posts
     visit posts_path
 

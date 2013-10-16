@@ -11,6 +11,7 @@
         null,
         1,
         null,
+        1,
         null
       ],
       "/Users/philworthington/Code_Fellows/portfolio/app/controllers/application_controller.rb": [
@@ -23,11 +24,11 @@
         null,
         null,
         1,
-        10,
-        10,
+        14,
+        13,
         0,
         0,
-        0,
+        1,
         null,
         null,
         null
@@ -45,13 +46,16 @@
       "/Users/philworthington/Code_Fellows/portfolio/app/controllers/posts_controller.rb": [
         1,
         null,
+        1,
+        null,
+        null,
         null,
         1,
-        4,
+        3,
         null,
-        4,
-        4,
-        4,
+        3,
+        3,
+        3,
         null,
         null,
         null,
@@ -87,6 +91,7 @@
         1,
         2,
         null,
+        2,
         2,
         2,
         4,
@@ -117,18 +122,20 @@
         null,
         null,
         1,
-        1,
-        1,
+        0,
+        0,
         null,
-        1,
-        2,
-        1,
+        0,
+        0,
+        0,
         null,
         null,
         null
       ],
       "/Users/philworthington/Code_Fellows/portfolio/app/models/post.rb": [
         1,
+        1,
+        null,
         1,
         null
       ],
@@ -189,6 +196,6 @@
         null
       ]
     },
-    "timestamp": 1381953482
+    "timestamp": 1381961910
   }
 }

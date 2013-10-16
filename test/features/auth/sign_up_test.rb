@@ -1,8 +1,8 @@
 require "test_helper"
 
-feature "Ability to sign up for an account" do
+feature "Sign up" do
 
-  scenario "sign up" do
+  scenario "Sign up for an account using sign up button" do
 
     # Given a registration form
     visit projects_path
