@@ -65,6 +65,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    faker (1.2.0)
+      i18n (~> 0.5)
     hike (1.2.3)
     i18n (0.6.5)
     journey (1.0.4)
@@ -172,6 +174,7 @@ DEPENDENCIES
   capybara-webkit
   coffee-rails (~> 3.2.1)
   devise
+  faker
   jquery-rails
   launchy
   minitest-colorize

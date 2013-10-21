@@ -15,7 +15,9 @@ gem "minitest-rails"
 
 gem 'devise'
 
-gem "pundit"
+gem 'pundit'
+
+gem 'faker'
 
 
 
