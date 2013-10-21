@@ -15,6 +15,8 @@ gem "minitest-rails"
 
 gem 'devise'
 
+gem "pundit"
+
 
 
 # Gems used only for assets and not required
