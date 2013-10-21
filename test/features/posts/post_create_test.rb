@@ -24,12 +24,6 @@ feature "creating a post" do
     page.text.must_include posts(:cf).author.email
   end
 
-  scenario "creating a post as an author"
-
-    sign_in_user
-
-    visit posts_path
-    click_on "New Post"
 
 
 end
