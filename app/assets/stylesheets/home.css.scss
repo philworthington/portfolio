@@ -7,6 +7,26 @@
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+.list-inline a {
+  color: #f1321a;
+}
+
+.list-inline a:hover {
+  color: #222;
+}
+
+.alert-info {
+  background-color: #222222;
+  border-color: #222222;
+  color: #FFFFFF;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.alert {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
 a:hover {
   text-decoration: none;
 }
