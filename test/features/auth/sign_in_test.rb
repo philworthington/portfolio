@@ -8,7 +8,7 @@ feature "Signing in" do
     click_on "Sign In"
 
     # Fill in sign in form
-    fill_in "Email", with: users(:one).email
+    fill_in "Email", with: users(:editor).email
     fill_in "Password", with: "password"
     click_on "Sign in"
 

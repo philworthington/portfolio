@@ -5,7 +5,9 @@
 cf:
   title: Becoming a Code Fellow
   content: Means striving for excellence.
+  email: user33@example.com
   author: one
+  published: true
 
 
 one:

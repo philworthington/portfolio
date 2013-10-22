@@ -10,8 +10,8 @@ feature "Sign up" do
 
     # When I register with valid info
     fill_in "Email", with: "usertest@example.com"
-    fill_in "Password", with: users(:one).encrypted_password
-    fill_in "Password confirmation", with: users(:one).encrypted_password
+    fill_in "Password", with: users(:editor).encrypted_password
+    fill_in "Password confirmation", with: users(:editor).encrypted_password
     click_on "Sign up"
 
     # Then I should be signed up

@@ -1,10 +1,10 @@
-one:
+editor:
   email: user@example.com
   encrypted_password: <%= User.new.send(:password_digest, 'password') %>
   role: editor
   published: true
 
-two:
+author:
   email: user2@example.com
   encrypted_password: <%= User.new.send(:password_digest, 'password') %>
   role: author

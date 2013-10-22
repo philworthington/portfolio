@@ -4,7 +4,7 @@ feature "Visiting the posts" do
 
   scenario "Show existing posts" do
 
-    sign_in_user
+    sign_in
 
     # Visit posts
     visit posts_path
@@ -22,4 +22,18 @@ feature "Visiting the posts" do
     page.text.must_include posts(:cf).content
 
   end
+
+  scenario "View all posts regardless of published as editor" do
+
+    sign_in(:editor)
+
+    visit posts_path
+
+    page.text.must_include posts(:cf).title
+  end
+
+
+
+
+
 end

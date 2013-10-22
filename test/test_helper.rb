@@ -22,19 +22,19 @@ class ActiveSupport::TestCase
 end
 
 # signs in a user
-def sign_in_user
-  visit new_user_session_path
-  fill_in "Email", with: users(:one).email
-  fill_in "Password", with: "password"
-  click_on "Sign in"
+def sign_in(role = :author)
+    visit new_user_session_path
+    fill_in "Email", with: users(role).email
+    fill_in "Password", with: "password"
+    click_on "Sign in"
 end
 
 def sign_up_user
   visit projects_path
   click_on "Sign Up"
   fill_in "Email", with: "usersignup@example.com"
-  fill_in "Password", with: users(:one).encrypted_password
-  fill_in "Password confirmation", with: users(:one).encrypted_password
+  fill_in "Password", with: users(:editor).encrypted_password
+  fill_in "Password confirmation", with: users(:editor).encrypted_password
   click_on "Sign up"
 end
 
