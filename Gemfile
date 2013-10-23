@@ -19,6 +19,10 @@ gem 'pundit'
 
 gem 'faker'
 
+gem 'omniauth-twitter'
+
+gem 'figaro'
+
 
 
 # Gems used only for assets and not required
