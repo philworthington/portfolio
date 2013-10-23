@@ -23,6 +23,8 @@ gem 'omniauth-twitter'
 
 gem 'figaro'
 
+gem "strong_parameters"
+
 
 
 # Gems used only for assets and not required
