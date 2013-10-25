@@ -1,10 +1,10 @@
 class CommentsController < ApplicationController
 
   def create
-    @comment = Comment.new(comment_params)
+    @comment = @commentable.comments.new(comment_params)
     if @comment.save
         flash[:notice] = "Comment is awaiting moderation"
-        redirect_to post_path(@comment.post_id)
+        redirect_to @commentable, notice: "Comment is awaiting moderation"
     else
         @post = Post.find(@comment.post_id)
         render template: "posts/show"
