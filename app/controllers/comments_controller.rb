@@ -1,5 +1,9 @@
 class CommentsController < ApplicationController
 
+  def new
+    @comment = Comment.new
+  end
+
   def create
     @comment = @commentable.comments.new(comment_params)
     if @comment.save
@@ -17,4 +21,8 @@ private
     params.require(:comment).permit(:author, :author_url, :author_email, :content, :referrer, :post_id)
   end
 
+   def load_commentable
+    @resource, id = request.path.split('/')[1,2]
+    @commentable = @resource.singularize.classify.constantize.find(id)
+  end
 end

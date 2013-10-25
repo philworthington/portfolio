@@ -1,4 +1,6 @@
 class ProjectsController < ApplicationController
+  before_filter :set_project, only: [:show, :edit, :update, :destroy]
+
   def index
      @projects = Project.all
   end
@@ -20,6 +22,9 @@ class ProjectsController < ApplicationController
 
   def show
       @project = Project.find(params[:id])
+      @commentable = @project
+      @comments = @commentable.comments
+      @comment = Comment.new
   end
 
   def edit
@@ -42,4 +47,16 @@ class ProjectsController < ApplicationController
 
     redirect_to projects_path
   end
+
+
+private
+
+  def set_project
+    @project = Project.find(params[:id])
+  end
+
+  def project_params
+    params.require(:project).permit(:name, :technologies_used)
+  end
+
 end
