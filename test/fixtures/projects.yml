@@ -1,3 +1,11 @@
 cf:
   name: Becoming a Code Fellow
   technologies_used: Means striving for excellence.
+
+one:
+  name: Code Fellows
+  technologies_used: Rails
+
+two:
+  Name: codefellows
+  technologies_used: Ruby

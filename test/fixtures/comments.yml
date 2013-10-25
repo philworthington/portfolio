@@ -1,0 +1,14 @@
+one:
+  author: editor
+  author_url: http://one.example.com
+  author_email: user_one@example.com
+  content: This is the content
+  commentable: published
+  commentable_type: post
+
+two:
+  author: author
+  author_url: http://two.example.com
+  author_email: user_two@example.com
+  content: This is the content
+  commentable: published (Post)
