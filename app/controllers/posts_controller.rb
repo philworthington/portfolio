@@ -5,6 +5,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
+    sleep 1
     @posts = Post.all
 
     respond_to do |format|
@@ -35,6 +36,7 @@ class PostsController < ApplicationController
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @post }
+      format.js
     end
   end
 
@@ -53,9 +55,11 @@ class PostsController < ApplicationController
         current_user.posts << @post
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
         format.json { render json: @post, status: :created, location: @post }
+        format.js
       else
         format.html { render action: "new" }
         format.json { render json: @post.errors, status: :unprocessable_entity }
+        format.js
       end
     end
   end
@@ -85,6 +89,7 @@ class PostsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to posts_url }
       format.json { head :no_content }
+      format.js
     end
   end
 end

@@ -22,7 +22,7 @@
       <td><%= button_to 'Publish', post_path(post, post: { published: true }), method: :put, class: "btn btn default" %></td>
     <% end %>
     <% if policy(post).destroy? %>
-      <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, remote: true %></td>
     <% end %>
   </tr>
 <% end %>
@@ -30,4 +30,5 @@
 
 <br />
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path, id: "new_link", remote: true
+ %>

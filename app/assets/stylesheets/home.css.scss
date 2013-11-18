@@ -2,7 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+/**************************/
+/********* GLOBAL *********/
+/**************************/
 * {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -31,65 +33,136 @@ a:hover {
   text-decoration: none;
 }
 
-.header-wrapper {
+
+
+/**************************/
+/******** NAVBAR **********/
+/**************************/
+
+.navbar-top {
+  width: 100%;
+  height: 80px;
   display: block;
+  background-color: #fff;
+
+}
+
+.navbar-top h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  position: relative;
+  display: inline;
+  left: 50px;
+  float: left;
+  top: 18px;
+}
+
+.navbar-top h4 span {
+  font-weight: 300;
+}
+
+.navbar-top h4 a {
+  color: #333;
+}
+
+.nav-links {
+  text-align: right;
+  list-style: none;
+  position: relative;
+  top: 28px;
+  right: 50px;
+  float: right;
+}
+
+.nav-links li {
+  display: inline;
+  padding: 10px;
+
+}
+
+.nav-links li a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #333;
+}
+
+.nav-links li a:hover {
+  color: #555;
+}
+
+
+
+
+
+
+/**************************/
+/******** HEADER **********/
+/**************************/
+
+#top {
+  height: 500px;
+}
+
+.header-wrapper {
+  position: relative;
   margin: 0 auto;
-  vertical-align: baseline;
-  margin-top: 90px;
-  width: 825px;
+  vertical-align: center;
+  margin-top: 70px;
+
 }
 
 .header-wrapper img {
-  float: left;
-  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  display: block;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
-.vert-text {
-  float: left;
-  display: inline-block;
-  box-sizing: border-box;
-  margin-left: 25px;
-  margin-top: 40px;
-}
 
 .header-intro {
   width: 530px;
   margin: 0 auto;
-  color: #fff;
+  color: #333;
 }
 
-.vert-text a {
-  color: #fff;
+.header-wrapper a {
+  color: #333;
   font-weight: 700;
   font-size: 1.2em;
 }
 
-#top {
-  height: 400px;
-}
 
-.vert-text h1 {
+.header-wrapper h1 {
   font-size: 3em;
+  color: #333;
+  text-align: center;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  top: 12px;
+  position: relative;
+}
+
+.header-wrapper h4 {
   color: #fff;
+  color: #333;
+}
+
+.header-wrapper p {
+  font-size: 1.1em;
+  /*line-height: 1.5em;*/
   text-align: left;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  position: relative;
 }
 
-.vert-text h4 {
-  color: #fff;
-}
-
-.vert-text p {
-  font-size: 1.2em;
-  text-align: left;
-}
-
-.vert-text .btn-default {
+.header-wrapper .btn-default {
   background: rgba(255,255,255,0.2);
   border: 2px solid #fff ;
 }
 
-.vert-text .btn-default:hover {
+.header-wrapper .btn-default:hover {
   background: rgba(255,255,255,0.3);
   color: #fff;
 }
@@ -232,7 +305,8 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../assets/bg1.png) no-repeat center center fixed;
+/*  background: url(../assets/bg1.png) no-repeat center center fixed;*/
+  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
