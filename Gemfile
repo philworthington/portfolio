@@ -23,6 +23,7 @@ gem 'fog'
 gem 'unf'
 gem 'carrierwave_direct'
 gem 'sidekiq'
+gem "redis", "~> 3.0.6"
 
 
 # Gems used only for assets and not required
