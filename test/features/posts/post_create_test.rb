@@ -94,4 +94,18 @@ feature "creating a post" do
 
   end
 
+  scenario "Create a post on the index using ajax", js: true
+
+    visit posts_path
+
+    click_on "New Post"
+
+    fill_in "Title", with: posts(:cf).title
+    fill_in "Content", with: posts(:cf).content
+
+    click_on "Create Post"
+
+    page.text.must_include "Post was successfully created"
+
+
 end
