@@ -1,21 +1,22 @@
 Portfolio::Application.routes.draw do
+  scope ":locale" do
 
-  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
+    devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
 
-  resources :posts do
-    resources :comments
+    resources :posts do
+      resources :comments
+    end
+
+    resources :projects do
+      resources :comments
+    end
+
+    devise_scope :user do
+      get 'sign_out', to: 'devise/sessions#destroy', as: :sign_out
+    end
+
+
   end
-
-  resources :projects do
-    resources :comments
-  end
-
-  devise_scope :user do
-    get 'sign_out', to: 'devise/sessions#destroy', as: :sign_out
-  end
-
-
-  "home/index"
    root :to => 'home#index'
 
   # The priority is based upon order of creation:
