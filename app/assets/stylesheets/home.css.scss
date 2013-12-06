@@ -5,8 +5,9 @@
 /**************************/
 /********* GLOBAL *********/
 /**************************/
-* {
-  font-family: 'Open Sans', Helvetica, sans-serif;
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
 .list-inline a {
@@ -21,7 +22,6 @@
   background-color: #222222;
   border-color: #222222;
   color: #FFFFFF;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .alert {
@@ -41,14 +41,11 @@ a:hover {
 
 .navbar-top {
   width: 100%;
-  height: 80px;
   display: block;
   background-color: #fff;
-
 }
 
 .navbar-top h4 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 500;
   position: relative;
   display: inline;
@@ -81,7 +78,6 @@ a:hover {
 }
 
 .nav-links li a {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1em;
   color: #333;
@@ -138,7 +134,6 @@ a:hover {
   font-size: 3em;
   color: #333;
   text-align: center;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   top: 12px;
   position: relative;
 }
@@ -181,7 +176,6 @@ body > .btn-primary:hover {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 3em;
 }
 
@@ -194,12 +188,6 @@ body > .btn-primary:hover {
 
 /* Stylish Portfolio */
 /* Global Styles */
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
 
 .vert-text {
   display: table-cell;
@@ -391,7 +379,7 @@ i.service-icon:hover {
 /* Footer */
 
 footer {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 
