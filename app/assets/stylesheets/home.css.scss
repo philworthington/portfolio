@@ -64,11 +64,18 @@ a:hover {
 .nav li {
   position: relative;
   display: inline;
-  padding: 0 30px;
   float: right;
   top: 12px;
   font-size: .9em;
   letter-spacing: 1px;
+}
+
+.nav li:last-child {
+  padding-right: 60px;
+}
+
+.nav li:nth-child(2) {
+  padding-right: 60px;
 }
 
 .nav li a {
