@@ -8,10 +8,11 @@
       <li><a href="#work">WORK</a></li>
     </ul>
       <div class="header-intro">
-
+        <p>I'm a Seattle based web developer and designer. I work on back-end engineering and front-end design.</p>
       </div>
    </div>
 </div>
+
 
 <!-- <p> I'm currently a student at <a href="https://www.codefellows.org">Code Fellows</a> in Seattle, WA, learning <span>Ruby on Rails</span>. I invite you to use this site to see what I'm learning and building. Connect with me on <a href="http://www.linkedin.com/in/philworthington22">LinkedIn</a>. Sometimes I post design stuff in my free time over at <a href="http://dribbble.com/philworthington">Dribbble</a>. You can also find me on <a href="https://github.com/philworthington">Github</a>. -->
 
@@ -64,41 +65,18 @@
 </footer>
 <!-- /Footer -->
 
-<!-- Bootstrap core JavaScript -->
-<!-- Placed at the end of the document so the pages load faster -->
+
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
 
-<!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
 <script>
-  $("#menu-close").click(function(e) {
-      e.preventDefault();
-      $("#sidebar-wrapper").toggleClass("active");
-  });
-</script>
-<script>
-  $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#sidebar-wrapper").toggleClass("active");
-  });
-</script>
-<script>
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-          || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
+  var intro = $('.header-intro');
+$(window).scroll(function(){
+   if($(window).scrollTop()<100){
+         intro.fadeIn(1000);
+   } else {
+         intro.fadeOut(1000);
+   }
+});
 </script>
 
  <!-- Blog -->
