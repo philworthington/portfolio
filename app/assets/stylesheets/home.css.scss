@@ -49,9 +49,9 @@ a:hover {
 
 .header-wrapper {
   position: relative;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .nav {
@@ -67,6 +67,16 @@ a:hover {
   float: right;
   top: 15px;
   font-size: .9em;
+  letter-spacing: 1px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.nav li a:hover {
+  color: #aaa;
 }
 
 
