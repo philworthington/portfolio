@@ -8,7 +8,7 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
+# gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 gem 'jquery-rails'
 gem "minitest-rails"
 gem 'devise'
