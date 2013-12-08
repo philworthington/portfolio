@@ -11,9 +11,9 @@ html, body {
 }
 
 .alert-info {
-  background-color: #222222;
-  border-color: #222222;
-  color: #FFFFFF;
+  background-color: #222;
+  border-color: #222;
+  color: #fff;
 }
 
 .alert {
@@ -37,7 +37,6 @@ a:hover {
   width: 100%;
   position: relative;
 /*  background: url(../assets/bg1.png) no-repeat center center fixed;*/
-  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -152,8 +151,38 @@ a:hover {
   position: relative;
   background: #ccc;
   color: #ffffff;
-  height: 300px;
+  height: 400px;
   width: 100%;
+}
+
+
+/* Portfolio Item 1 */
+
+.item1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+
+/* Portfolio Item 2 */
+
+.item2 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+/* Portfolio Item 2 */
+
+.item3 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #1c1d1e;
 }
 
 /* Callout */
@@ -168,20 +197,6 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-  padding: 50px 0;
-}
-
-.portfolio-item {
-  margin-bottom: 25px;
-}
-
-.img-portfolio {
-  margin: 0 auto;
 }
 
 
