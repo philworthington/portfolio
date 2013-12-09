@@ -160,9 +160,26 @@ a:hover {
 
 .item1 {
   position: relative;
-  height: 500px;
+  height: 700px;
   width: 100%;
-  background-color: #e5e5e5;
+  /*background-color: #e5e5e5;*/
+  background-color: #f06861;
+  display: block;
+}
+
+.item1 img {
+  position: relative;
+  top: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item1 h1 {
+  position: relative;
+  margin-top: 130px;
+  text-align: center;
+  color: #eee;
+  font-weight: 200;
 }
 
 
@@ -170,9 +187,24 @@ a:hover {
 
 .item2 {
   position: relative;
-  height: 500px;
+  height: 800px;
   width: 100%;
   background-color: #ddd;
+}
+
+.item2 img {
+  position: relative;
+  top: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item2 h1 {
+  position: relative;
+  margin-top: 130px;
+  text-align: center;
+  color: #444;
+  font-weight: 200;
 }
 
 
