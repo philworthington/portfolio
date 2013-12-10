@@ -149,7 +149,7 @@ a:hover {
 
 .services {
   position: relative;
-  background: #ccc;
+  background: #ddd;
   color: #ffffff;
   height: 400px;
   width: 100%;
@@ -162,14 +162,14 @@ a:hover {
   position: relative;
   height: 800px;
   width: 100%;
-  /*background-color: #e5e5e5;*/
-  background-color: #f06861;
+  /*background-color: #f06861;*/
+  background-color: #e5e5e5;
   display: block;
 }
 
 .item1 img {
   position: relative;
-  top: 70px;
+  top: 80px;
   display: block;
   margin: 0 auto;
 }
@@ -178,7 +178,7 @@ a:hover {
   position: relative;
   margin-top: 130px;
   text-align: center;
-  color: #eee;
+  color: #444;
   font-weight: 200;
 }
 
@@ -189,12 +189,12 @@ a:hover {
   position: relative;
   height: 800px;
   width: 100%;
-  background-color: #ddd;
+  background-color: #d7d7d7;
 }
 
 .item2 img {
   position: relative;
-  top: 70px;
+  top: 80px;
   display: block;
   margin: 0 auto;
 }
@@ -208,18 +208,19 @@ a:hover {
 }
 
 
-/* Portfolio Item 2 */
+/* Portfolio Item 3 */
 
 .item3 {
   position: relative;
   height: 700px;
   width: 100%;
-  background-color: #83b583;
+  /*background-color: #83b583;*/
+  background-color: #e5e5e5;
 }
 
 .item3 img {
   position: relative;
-  top: 70px;
+  top: 80px;
   display: block;
   margin: 0 auto;
 }
@@ -228,7 +229,33 @@ a:hover {
   position: relative;
   margin-top: 130px;
   text-align: center;
-  color: #eee;
+  color: #444;
+  font-weight: 200;
+}
+
+
+/* Portfolio Item 4 */
+
+.item4 {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  /*background-color: #83b583;*/
+  background-color: #d7d7d7;
+}
+
+.item4 img {
+  position: relative;
+  top: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item4 h1 {
+  position: relative;
+  margin-top: 130px;
+  text-align: center;
+  color: #444;
   font-weight: 200;
 }
 
