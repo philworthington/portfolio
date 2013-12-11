@@ -50,8 +50,20 @@ a:hover {
   position: relative;
   width: 72%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
   max-width: 950px;
+}
+
+.header-wrapper h3 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 3px 15px;
+  border: 3px solid #fff;
+  display: inline;
+  font-size: 1em;
+  position: relative;
+  top: 8px;
 }
 
 .nav {
@@ -64,8 +76,8 @@ a:hover {
   position: relative;
   display: inline;
   float: right;
-  top: 10px;
-  font-size: .9em;
+  top: 14px;
+  font-size: .8em;
   letter-spacing: 1px;
 }
 
@@ -90,8 +102,47 @@ a:hover {
   margin: 0 auto;
   width: 550px;
   position: relative;
-  top: 90px;
+  top: 125px;
   text-align: center;
+  animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    -webkit-animation: fadein 2.5s;
+    -o-animation: fadein 2.5s;
+}
+  @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .h-intro h1 {
@@ -127,10 +178,10 @@ a:hover {
   color: #fff;
   text-align: center;
   line-height: 1.7em;
-  animation: fadein 3s;
-    -moz-animation: fadein 3s;
-    -webkit-animation: fadein 3s;
-    -o-animation: fadein 3s;
+  animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
 }
   @keyframes fadein {
     from {
@@ -175,8 +226,8 @@ a:hover {
 
 .services {
   position: relative;
-  background: #ddd;
-  color: #ffffff;
+  background: #222;
+  color: #fff;
   height: 400px;
   width: 100%;
 }
@@ -206,7 +257,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 1.7em;
 }
 
 
@@ -231,7 +283,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 1.7em;
 }
 
 
@@ -258,7 +311,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 1.7em;
 }
 
 
@@ -284,7 +338,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 1.7em;
 }
 
 /* Callout */
