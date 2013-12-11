@@ -79,11 +79,36 @@ a:hover {
 
 .nav li a {
   text-decoration: none;
-  color: #ccc;
+  color: #fff;
 }
 
 .nav li a:hover {
-  color: #aaa;
+  color: #ddd;
+}
+
+.h-intro {
+  margin: 0 auto;
+  width: 550px;
+  position: relative;
+  top: 90px;
+  text-align: center;
+}
+
+.h-intro h1 {
+  font-size: 3.5em;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.h-intro p {
+  font-size: 1.1em;
+  color: #eee;
+  letter-spacing: 2px;
+  top: -40px;
+  position: relative;
+  font-weight: 200;
 }
 
 
