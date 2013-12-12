@@ -104,10 +104,10 @@ a:hover {
   position: relative;
   top: 125px;
   text-align: center;
-  animation: fadein 2.5s;
-    -moz-animation: fadein 2.5s;
-    -webkit-animation: fadein 2.5s;
-    -o-animation: fadein 2.5s;
+  animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
 }
   @keyframes fadein {
     from {
@@ -241,7 +241,7 @@ a:hover {
   width: 100%;
   /*background-color: #f06861;*/
   /*background-color: #e5e5e5;*/
-  background-color: #eee;
+  background-color: #fafafa;
   display: block;
 }
 
@@ -257,8 +257,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 400;
-  font-size: 1.7em;
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 
@@ -268,7 +268,7 @@ a:hover {
   position: relative;
   height: 800px;
   width: 100%;
-  background-color: #d7d7d7;
+  background-color: #eee;
 }
 
 .item2 img {
@@ -283,8 +283,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 400;
-  font-size: 1.7em;
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 
@@ -296,7 +296,7 @@ a:hover {
   width: 100%;
   /*background-color: #83b583;*/
   /*background-color: #e5e5e5;*/
-  background-color: #eee;
+  background-color: #fafafa;
 }
 
 .item3 img {
@@ -311,8 +311,8 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
-  font-weight: 400;
-  font-size: 1.7em;
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 
@@ -323,7 +323,7 @@ a:hover {
   height: 700px;
   width: 100%;
   /*background-color: #83b583;*/
-  background-color: #d7d7d7;
+  background-color: #eee;
 }
 
 .item4 img {
@@ -335,11 +335,11 @@ a:hover {
 
 .item4 h1 {
   position: relative;
-  margin-top: 130px;
+  margin-top: 110px;
   text-align: center;
   color: #444;
-  font-weight: 400;
-  font-size: 1.7em;
+  font-weight: 200;
+  font-size: 1.8em;
 }
 
 /* Callout */
@@ -354,6 +354,23 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.callout h1 {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-weight: 200;
+  font-size: 3em;
+}
+
+.callout h1 a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.callout h1 a:hover {
+  color: #ccc;
 }
 
 
