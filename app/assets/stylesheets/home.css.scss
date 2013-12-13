@@ -163,63 +163,6 @@ a:hover {
 }
 
 
-.header-intro {
-  margin: 0 auto;
-  width: 450px;
-  position: relative;
-  top: 70px;
-}
-
-.header-intro p {
-  font-size: 2em;
-  font-weight: 200;
-  letter-spacing: 1px;
-  /*color: #999;*/
-  color: #fff;
-  text-align: center;
-  line-height: 1.7em;
-  animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
-    -o-animation: fadein 1.5s;
-}
-  @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
-@-moz-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
-@-webkit-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
-@-o-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-
 
 
 /* Services */
@@ -230,7 +173,29 @@ a:hover {
   color: #fff;
   height: 400px;
   width: 100%;
+  margin-top: -35px;
 }
+
+.services-intro {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+  top: 100px;
+}
+
+.services-intro p {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  /*color: #999;*/
+  color: #ddd;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+
+
+
 
 
 /* Portfolio Item 1 */
@@ -348,7 +313,7 @@ a:hover {
 /* Callout */
 
 .callout {
-  color: #ffffff;
+  color: #fff;
   display: table;
   height: 400px;
   width: 100%;
@@ -367,13 +332,20 @@ a:hover {
   font-size: 2.7em;
 }
 
+.callout h1 span {
+  color: #fff;
+  font-weight: 400;
+}
+
 .callout h1 a {
   text-decoration: none;
-  color: #45c9af;
+  /*color: #45c9af;*/
+  color: #fff;
 }
 
 .callout h1 a:hover {
-  color: #17c2a0;
+  /*color: #17c2a0;*/
+  color: #e5e5e5;
 }
 
 
