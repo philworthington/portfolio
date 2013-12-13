@@ -335,12 +335,15 @@ a:hover {
 
 .item4 h1 {
   position: relative;
-  margin-top: 115px;
+  margin-top: 120px;
   text-align: center;
   color: #444;
   font-weight: 200;
   font-size: 1.8em;
 }
+
+
+
 
 /* Callout */
 
@@ -359,19 +362,32 @@ a:hover {
 .callout h1 {
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 135px;
   font-weight: 200;
   font-size: 2.7em;
 }
 
 .callout h1 a {
   text-decoration: none;
-  color: #ddd;
+  color: #45c9af;
 }
 
 .callout h1 a:hover {
-  color: #ccc;
+  color: #17c2a0;
 }
+
+
+
+
+/* About */
+
+.about {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: #fafafa;
+}
+
 
 
 /* Call to Action */
@@ -398,13 +414,17 @@ a:hover {
   position: relative;
   font-weight: 400;
   padding: 15px 55px;
-  background-color: #45c3aa;
+  background-color: #17c2a0;
   text-decoration: none;
   color: #fff;
   border-radius: 2px;
   top: 10px;
   letter-spacing: 1px;
   font-size: .9em;
+}
+
+.call-to-action a:hover {
+  background-color: #45c9af;
 }
 
 
