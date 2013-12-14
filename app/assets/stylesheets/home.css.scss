@@ -413,7 +413,7 @@ a:hover {
 
 .call-to-action {
   color: #fff;
-  background: #222;
+  background: #eee;
   padding: 50px 0;
   height: 200px;
 }
@@ -425,7 +425,7 @@ a:hover {
   font-size: 1.6em;
   margin-top: 50px;
   position: relative;
-  color: #ddd;
+  color: #444;
 }
 
 .call-to-action a {
@@ -453,9 +453,46 @@ a:hover {
   text-align: center;
 }
 
+
+
 /* Footer */
 
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #222;
+}
 
+.list-inline {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  right: 19px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.list-inline li a:hover {
+  color: #17c2a0;
+}
+
+footer p {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: .9em;
+  color: #555;
+}
 
 
 
