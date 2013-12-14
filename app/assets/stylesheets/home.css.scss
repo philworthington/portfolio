@@ -238,6 +238,11 @@ a:hover {
   letter-spacing: 1px;
 }
 
+.tools-list p:last-child {
+  position: relative;
+  top: -5px;
+}
+
 
 
 
@@ -483,6 +488,7 @@ footer {
 }
 
 .list-inline li a:hover {
+  /*color: #1abc9c;*/
   color: #2da48c;
 }
 
