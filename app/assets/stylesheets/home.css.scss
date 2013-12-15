@@ -360,14 +360,50 @@ a:hover {
 
 .about {
   position: relative;
-  height: 500px;
+  height: 400px;
   width: 100%;
-  background-color: #fafafa;
+  background-color: #fff;
+}
+
+.about-wrapper {
+  display: block;
+  margin: 0 auto;
+  vertical-align: baseline;
+  margin-top: 90px;
+  width: 825px;
+}
+
+.about-wrapper img {
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.about-text {
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  left: 40px;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+.about-text {
+  width: 530px;
+  margin: 0 auto;
+  color: #777;
+}
+
+.about-text p {
+  line-height: 2em;
+  position: relative;
+  top: 20px;
 }
 
 .about hr {
   position: relative;
-  top: 90px;
+  top: 70px;
   width: 150px;
   border: 1px solid #777;
 }
@@ -389,7 +425,7 @@ a:hover {
   text-decoration: none;
   color: #777;
   border-radius: 2px;
-  top: 56px;
+  top: 36px;
   letter-spacing: 1px;
   font-size: 1em;
 }
@@ -399,7 +435,7 @@ a:hover {
   position: relative;
   display: block;
   text-align: center;
-  top: 50px;
+  top: 10px;
 }
 
 .tools-list p {
@@ -411,7 +447,7 @@ a:hover {
 
 .tools-list p:last-child {
   position: relative;
-  top: -5px;
+  top: 5px;
 }
 
 
