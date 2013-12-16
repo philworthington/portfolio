@@ -4,14 +4,14 @@
     <!-- <img src="../assets/logo.png" alt="logo"> -->
     <h3>PHIL WORTHINGTON</h3>
     <ul class="nav">
-      <li><a href="#contact">CONTACT</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#work">WORK</a></li>
+      <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+      <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+      <li><a href="#work" class="smoothScroll">WORK</a></li>
     </ul>
       <div class="h-intro">
         <h1>WEB DEVELOPER</h1>
         <p>ENGINEERING &amp; DESIGN </p>
-        <a href="#intro"><img src="../assets/arrow.png" alt="arrow"></a>
+        <a href="#intro" class="smoothScroll"><img src="../assets/arrow.png" alt="arrow"></a>
       </div>
    </div>
 </div>
@@ -106,7 +106,8 @@
 </footer>
 <!-- /Footer -->
 
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/smoothscroll.js"></script>
 
 <script>
   var intro = $('.h-intro');
@@ -120,15 +121,6 @@ $(window).scroll(function(){
 </script>
 
 
-<script>
-  $(document).ready(function() {
-    $('#top a').smoothscroll();
-  });
-
-   $('#top a').click(function() {
-     $.scrollTo($(this).attr('href'), {duration: 2000});
-  });
-</script>
 
  <!-- Blog -->
  <!--
