@@ -11,14 +11,14 @@
       <div class="h-intro">
         <h1>WEB DEVELOPER</h1>
         <p>ENGINEERING &amp; DESIGN </p>
-        <a href="#services"><img src="../assets/arrow.png" alt="arrow"></a>
+        <a href="#intro"><img src="../assets/arrow.png" alt="arrow"></a>
       </div>
    </div>
 </div>
 
 
 <!-- Services -->
-<div id="services" class="services">
+<div id="intro" class="services">
   <div class="services-intro">
     <p>I'm a Seattle based web developer and designer working on back-end engineering and front-end design. I'm passionate about clean code and simple interfaces that create an experience while bringing ideas and services to life.</p>
   </div>
@@ -107,7 +107,6 @@
 <!-- /Footer -->
 
 
-<script src="js/jquery.js"></script>
 
 <script>
   var intro = $('.h-intro');
@@ -118,6 +117,17 @@ $(window).scroll(function(){
          intro.fadeOut(600);
    }
 });
+</script>
+
+
+<script>
+  $(document).ready(function() {
+    $('#top a').smoothscroll();
+  });
+
+   $('#top a').click(function() {
+     $.scrollTo($(this).attr('href'), {duration: 2000});
+  });
 </script>
 
  <!-- Blog -->
