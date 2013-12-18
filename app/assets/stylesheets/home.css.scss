@@ -111,34 +111,34 @@ a:hover {
 }
   @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
 
 @-moz-keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
 
 @-webkit-keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
 
 @-o-keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
         opacity: 1;
@@ -157,7 +157,7 @@ a:hover {
   font-size: 1.1em;
   color: #eee;
   letter-spacing: 2px;
-  top: -40px;
+  top: -38px;
   position: relative;
   font-weight: 200;
 }
@@ -235,6 +235,57 @@ a:hover {
   color: #444;
   font-weight: 200;
   font-size: 1.8em;
+}
+
+.item-text {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  width: 600px;
+}
+
+.item-text p {
+  position: relative;
+  margin: 0 auto;
+  color: #888;
+}
+
+.built-with {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+}
+
+.built-with span {
+  color: #888;
+}
+
+.built-with p {
+  color: #aaa;
+  font-style: italic;
+}
+
+.view-project {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.view-project p {
+  color: #444;
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.view-project p a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #444;
+}
+
+.view-project p a:hover {
+  color: #17c2a0;
 }
 
 
@@ -355,7 +406,6 @@ a:hover {
 }
 
 .callout h1 a:hover {
-  /*color: #17c2a0;*/
   color: #17c2a0;
 }
 
