@@ -8,6 +8,8 @@
 html, body {
   margin: 0;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .alert-info {
@@ -42,7 +44,6 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   height: 500px;
-  width: 100%;
   background-color: #1c1d1e;
 }
 
@@ -213,7 +214,7 @@ a:hover {
 
 .item1 {
   position: relative;
-  height: 970px;
+  height: 1020px;
   width: 100%;
   /*background-color: #f06861;*/
   /*background-color: #e5e5e5;*/
@@ -250,6 +251,7 @@ a:hover {
   margin: 0 auto;
   color: #888;
   line-height: 1.6em;
+  font-size: 1.1em;
 }
 
 .built-with {
@@ -276,7 +278,7 @@ a:hover {
 .view-project p {
   color: #444;
   font-weight: 200;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .view-project p a {
@@ -294,7 +296,7 @@ a:hover {
 
 .item2 {
   position: relative;
-  height: 1030px;
+  height: 1050px;
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -327,7 +329,7 @@ a:hover {
 
 .item3 {
   position: relative;
-  height: 880px;
+  height: 930px;
   width: 100%;
   /*background-color: #83b583;*/
   /*background-color: #e5e5e5;*/
@@ -355,7 +357,7 @@ a:hover {
 
 .item4 {
   position: relative;
-  height: 900px;
+  height: 890px;
   width: 100%;
   /*background-color: #83b583;*/
   background-color: #f2f2f2;
