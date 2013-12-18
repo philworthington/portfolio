@@ -178,16 +178,16 @@ a:hover {
   position: relative;
   background: #222;
   color: #fff;
-  height: 340px;
+  height: 380px;
   width: 100%;
   margin-top: -35px;
 }
 
 .services-intro {
   margin: 0 auto;
-  width: 630px;
+  width: 650px;
   position: relative;
-  top: 75px;
+  top: 90px;
 }
 
 .services-intro p {
@@ -195,10 +195,15 @@ a:hover {
   font-weight: 200;
   letter-spacing: 1px;
   /*color: #999;*/
-  color: #bbb;
+  color: #999;
   text-align: center;
   line-height: 2em;
   letter-spacing: 1px;
+}
+
+.services-intro p:last-child {
+  color: #999;
+  font-size: 1.4em;
 }
 
 
@@ -235,7 +240,7 @@ a:hover {
   text-align: center;
   color: #444;
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 .item-text {
@@ -258,6 +263,7 @@ a:hover {
   position: relative;
   display: block;
   margin-top: 30px;
+  font-size: .9em;
 }
 
 .built-with span {
@@ -314,12 +320,14 @@ a:hover {
   text-align: center;
   color: #444;
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 .item2-p2 {
   position: relative;
   top: 15px;
+  font-size: .9em;
+  font-style: italic;
 }
 
 
@@ -349,7 +357,7 @@ a:hover {
   text-align: center;
   color: #444;
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 
@@ -376,7 +384,7 @@ a:hover {
   text-align: center;
   color: #444;
   font-weight: 200;
-  font-size: 1.8em;
+  font-size: 1.9em;
 }
 
 
@@ -426,7 +434,7 @@ a:hover {
 
 .about {
   position: relative;
-  height: 400px;
+  height: 780px;
   width: 100%;
   background-color: #fff;
 }
@@ -464,7 +472,7 @@ a:hover {
 .about-text p {
   line-height: 2em;
   position: relative;
-  top: 20px;
+  top: 0px;
 }
 
 .about hr {
@@ -509,11 +517,12 @@ a:hover {
   font-weight: 200;
   font-size: 1em;
   letter-spacing: 1px;
+  top: 14px;
 }
 
 .tools-list p:last-child {
   position: relative;
-  top: 5px;
+  top: 0px;
 }
 
 
