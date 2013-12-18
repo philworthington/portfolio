@@ -21,7 +21,9 @@
 <div id="intro" class="services">
   <div class="services-intro">
     <p>I'm a Seattle based web developer and designer working on back-end engineering and front-end design. I'm passionate about clean code, simple interfaces, and quality craftsmanship.</p>
-    <p>Take a look at some of my recent projects below.</p>
+    <div class="projects-btn">
+      <a href="#work" class="smoothScroll"><p>Take a look at some of my recent projects below</p></a>
+    </div>
   </div>
 
 </div>
@@ -173,6 +175,17 @@ $(window).scroll(function(){
          intro.fadeOut(600);
    }
 });
+</script>
+
+<script>
+  $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 300) {
+          $('.projects-btn').fadeIn();
+      } else {
+          $('.projects-btn').fadeOut();
+      }
+  });
 </script>
 
 

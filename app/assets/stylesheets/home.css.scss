@@ -193,20 +193,43 @@ a:hover {
 .services-intro p {
   font-size: 1.4em;
   font-weight: 200;
-  letter-spacing: 1px;
-  /*color: #999;*/
   color: #999;
   text-align: center;
   line-height: 2em;
   letter-spacing: 1px;
 }
 
-.services-intro p:last-child {
-  color: #999;
-  font-size: 1.4em;
+.projects-btn {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  text-align: center;
+  top: 10px;
+   animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
+.projects-btn p {
+  color: #555;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 25px;
+  border: 3px solid #555;
+  display: inline;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
 }
 
+.projects-btn a {
+  text-decoration: none;
+}
 
+.projects-btn a:hover {
+
+}
 
 
 
@@ -304,7 +327,7 @@ a:hover {
   position: relative;
   height: 1050px;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
 }
 
 .item2 img {
@@ -368,7 +391,7 @@ a:hover {
   height: 890px;
   width: 100%;
   /*background-color: #83b583;*/
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
 }
 
 .item4 img {
@@ -531,7 +554,7 @@ a:hover {
 
 .call-to-action {
   color: #fff;
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
   padding: 50px 0;
   height: 250px;
 }
