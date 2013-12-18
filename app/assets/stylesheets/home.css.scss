@@ -213,7 +213,7 @@ a:hover {
 
 .item1 {
   position: relative;
-  height: 900px;
+  height: 970px;
   width: 100%;
   /*background-color: #f06861;*/
   /*background-color: #e5e5e5;*/
@@ -249,6 +249,7 @@ a:hover {
   position: relative;
   margin: 0 auto;
   color: #888;
+  line-height: 1.6em;
 }
 
 .built-with {
@@ -293,9 +294,9 @@ a:hover {
 
 .item2 {
   position: relative;
-  height: 900px;
+  height: 1030px;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
 }
 
 .item2 img {
@@ -314,12 +315,19 @@ a:hover {
   font-size: 1.8em;
 }
 
+.item2-p2 {
+  position: relative;
+  top: 15px;
+}
+
+
+
 
 /* Portfolio Item 3 */
 
 .item3 {
   position: relative;
-  height: 900px;
+  height: 880px;
   width: 100%;
   /*background-color: #83b583;*/
   /*background-color: #e5e5e5;*/
@@ -350,7 +358,7 @@ a:hover {
   height: 900px;
   width: 100%;
   /*background-color: #83b583;*/
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
 }
 
 .item4 img {
@@ -512,7 +520,7 @@ a:hover {
 
 .call-to-action {
   color: #fff;
-  background: #f5f5f5;
+  background-color: #f2f2f2;
   padding: 50px 0;
   height: 250px;
 }
