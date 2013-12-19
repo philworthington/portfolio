@@ -227,9 +227,6 @@ a:hover {
   text-decoration: none;
 }
 
-.projects-btn a:hover {
-
-}
 
 
 
@@ -301,25 +298,34 @@ a:hover {
 
 .view-project {
   position: relative;
-  margin-top: 40px;
+  top: 40px;
   text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 
 .view-project p {
-  color: #444;
-  font-weight: 200;
-  font-size: 1.3em;
+  color: #555;
+  font-size: .9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 23px;
+  border: 3px solid #555;
+  display: inline;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.view-project p a {
+.view-project a {
   text-decoration: none;
-  font-weight: 400;
-  color: #444;
 }
 
-.view-project p a:hover {
-  color: #17c2a0;
+.view-project a p:hover {
+  background-color: rgba(0,0,0,.1)
 }
+
+
 
 
 /* Portfolio Item 2 */
@@ -661,7 +667,7 @@ a:hover {
   position: relative;
   font-weight: 200;
   font-size: 1.6em;
-  margin-top: 70px;
+  margin-top: 50px;
   color: #444;
 }
 
