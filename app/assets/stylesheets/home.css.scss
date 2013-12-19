@@ -485,13 +485,57 @@ a:hover {
     -o-animation: fadein 3s;
 }
 
+.about-list {
+  float: left;
+  position: relative;
+  top: 280px;
+  right: 230px;
+}
+
+.about-list ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.about-list ul li a {
+  text-decoration: none;
+}
+
+.about-list ul li i {
+  color: #999;
+}
+
+.about-list ul li span {
+  position: relative;
+  left: 20px;
+  top: -5px;
+  color: #ccc;
+}
+
+.dark span:hover {
+  color: #8CC665;
+}
+
+.blue span:hover {
+  color: #1C87BD;
+}
+
+.pink span:hover {
+  color: #EA4C89;
+}
+
+.red span:hover {
+  color: #F34432;
+}
+
+
 .about-text {
   float: left;
   display: inline-block;
   box-sizing: border-box;
   position: relative;
   left: 40px;
-  top: -10px;
+  top: -200px;
 }
 
 .about-text {
@@ -512,7 +556,7 @@ a:hover {
 }
 
 .about-text p a:hover {
-  color: #555;
+  color: #CF3328;
 }
 
 .about hr {
