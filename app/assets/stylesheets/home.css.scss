@@ -43,7 +43,7 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 500px;
+  height: 550px;
   background-color: #1c1d1e;
 }
 
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .h-intro h1 {
-  font-size: 3.5em;
+  font-size: 3.7em;
   letter-spacing: 2px;
   color: #fff;
   text-align: center;
@@ -155,8 +155,8 @@ a:hover {
 }
 
 .h-intro p {
-  font-size: 1.1em;
-  color: #eee;
+  font-size: 1.2em;
+  color: #bbb;
   letter-spacing: 2px;
   top: -38px;
   position: relative;
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .h-intro img {
-  top: 85px;
+  top: 125px;
   position: relative;
   margin: 0 auto;
 }
@@ -212,7 +212,7 @@ a:hover {
 }
 .projects-btn p {
   color: #555;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 10px 25px;
@@ -262,6 +262,7 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
+  /*color: #eee;*/
   font-weight: 200;
   font-size: 1.9em;
 }
@@ -327,7 +328,8 @@ a:hover {
   position: relative;
   height: 1050px;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
+  /*background-color: #333;*/
 }
 
 .item2 img {
@@ -342,6 +344,7 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
+  /*color: #eee;*/
   font-weight: 200;
   font-size: 1.9em;
 }
@@ -365,6 +368,7 @@ a:hover {
   /*background-color: #83b583;*/
   /*background-color: #e5e5e5;*/
   background-color: #fff;
+  /*background-color: #555;*/
 }
 
 .item3 img {
@@ -379,6 +383,7 @@ a:hover {
   margin-top: 130px;
   text-align: center;
   color: #444;
+  /*color: #eee;*/
   font-weight: 200;
   font-size: 1.9em;
 }
@@ -391,7 +396,7 @@ a:hover {
   height: 890px;
   width: 100%;
   /*background-color: #83b583;*/
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
 }
 
 .item4 img {
@@ -418,7 +423,7 @@ a:hover {
 .callout {
   color: #fff;
   display: table;
-  height: 400px;
+  height: 500px;
   width: 100%;
   background: url(../assets/bg2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -430,7 +435,7 @@ a:hover {
 .callout h1 {
   text-align: center;
   position: relative;
-  top: 135px;
+  top: 175px;
   font-weight: 200;
   font-size: 2.7em;
 }
@@ -474,6 +479,10 @@ a:hover {
   float: left;
   display: inline-block;
   box-sizing: border-box;
+  animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
 }
 
 .about-text {
@@ -482,8 +491,7 @@ a:hover {
   box-sizing: border-box;
   position: relative;
   left: 40px;
-  margin-left: 25px;
-  margin-top: 40px;
+  top: -10px;
 }
 
 .about-text {
@@ -496,6 +504,15 @@ a:hover {
   line-height: 2em;
   position: relative;
   top: 0px;
+}
+
+.about-text p a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.about-text p a:hover {
+  color: #555;
 }
 
 .about hr {
@@ -554,7 +571,7 @@ a:hover {
 
 .call-to-action {
   color: #fff;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
   padding: 50px 0;
   height: 250px;
 }
