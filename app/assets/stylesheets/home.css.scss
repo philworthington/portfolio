@@ -489,7 +489,7 @@ a:hover {
   float: left;
   position: relative;
   top: 280px;
-  right: 230px;
+  right: 235px;
 }
 
 .about-list ul li {
@@ -516,7 +516,15 @@ a:hover {
   color: #8CC665;
 }
 
+.dark i:hover {
+  color: #8CC665;
+}
+
 .blue span:hover {
+  color: #1C87BD;
+}
+
+.blue i:hover {
   color: #1C87BD;
 }
 
@@ -524,7 +532,15 @@ a:hover {
   color: #EA4C89;
 }
 
+.pink i:hover {
+  color: #EA4C89;
+}
+
 .red span:hover {
+  color: #F34432;
+}
+
+.red i:hover {
   color: #F34432;
 }
 
@@ -535,7 +551,7 @@ a:hover {
   box-sizing: border-box;
   position: relative;
   left: 40px;
-  top: -200px;
+  top: -210px;
 }
 
 .about-text {
