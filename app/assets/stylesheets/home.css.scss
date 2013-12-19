@@ -575,9 +575,28 @@ a:hover {
   color: #CF3328;
 }
 
+.tools-icon {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: 10px;
+}
+
+.tools-icon img {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+.tools-section {
+  position: relative;
+  top: -20px;
+}
+
 .about hr {
   position: relative;
-  top: 70px;
+  top: 60px;
   width: 150px;
   border: 1px solid #777;
 }
@@ -599,7 +618,7 @@ a:hover {
   text-decoration: none;
   color: #777;
   border-radius: 2px;
-  top: 36px;
+  top: 25px;
   letter-spacing: 1px;
   font-size: 1em;
 }
@@ -609,7 +628,7 @@ a:hover {
   position: relative;
   display: block;
   text-align: center;
-  top: 10px;
+  top: 5px;
 }
 
 .tools-list p {
@@ -633,16 +652,16 @@ a:hover {
   color: #fff;
   background-color: #f2f2f2;
   padding: 50px 0;
-  height: 250px;
+  height: 300px;
 }
 
 .call-to-action h3 {
+  clear: both;
   text-align: center;
   position: relative;
   font-weight: 200;
   font-size: 1.6em;
   margin-top: 70px;
-  position: relative;
   color: #444;
 }
 
