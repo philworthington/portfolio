@@ -177,11 +177,12 @@ a:hover {
 
 .services {
   position: relative;
-  background: #222;
+  background: #f2f2f2;
   color: #fff;
   height: 380px;
   width: 100%;
   margin-top: -35px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .services-intro {
@@ -194,7 +195,8 @@ a:hover {
 .services-intro p {
   font-size: 1.4em;
   font-weight: 200;
-  color: #999;
+  /*color: #999;*/
+  color: #777;
   text-align: center;
   line-height: 2em;
   letter-spacing: 1px;
@@ -212,12 +214,13 @@ a:hover {
     -o-animation: fadein 3s;
 }
 .projects-btn p {
-  color: #555;
-  font-size: 1em;
+  /*color: #555;*/
+  color: #777;
+  font-size: .9em;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 8px 25px;
-  border: 3px solid #555;
+  border: 3px solid #777;
   display: inline;
   position: relative;
   text-align: center;
@@ -246,6 +249,7 @@ a:hover {
   /*background-color: #e5e5e5;*/
   background-color: #fff;
   display: block;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .item1 img {
@@ -258,6 +262,7 @@ a:hover {
 .item1 h1 {
   position: relative;
   margin-top: 130px;
+  top: 7px;
   text-align: center;
   color: #444;
   /*color: #eee;*/
@@ -338,6 +343,7 @@ a:hover {
   width: 100%;
   background-color: #f2f2f2;
   /*background-color: #333;*/
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .item2 img {
@@ -350,6 +356,7 @@ a:hover {
 .item2 h1 {
   position: relative;
   margin-top: 130px;
+  top: 7px;
   text-align: center;
   color: #444;
   /*color: #eee;*/
@@ -377,6 +384,7 @@ a:hover {
   /*background-color: #e5e5e5;*/
   background-color: #fff;
   /*background-color: #555;*/
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .item3 img {
@@ -389,6 +397,7 @@ a:hover {
 .item3 h1 {
   position: relative;
   margin-top: 130px;
+  top: 7px;
   text-align: center;
   color: #444;
   /*color: #eee;*/
@@ -417,6 +426,7 @@ a:hover {
 .item4 h1 {
   position: relative;
   margin-top: 120px;
+  top: 7px;
   text-align: center;
   color: #444;
   font-weight: 200;
@@ -433,7 +443,7 @@ a:hover {
   display: table;
   height: 500px;
   width: 100%;
-  background: url(../assets/bg3.jpg) no-repeat center center fixed;
+  background: url(../assets/bg4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -473,6 +483,7 @@ a:hover {
   height: 800px;
   width: 100%;
   background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .about-wrapper {
