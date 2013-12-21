@@ -203,6 +203,7 @@ a:hover {
 
 .projects-btn {
   margin: 0 auto;
+  display: none;
   position: relative;
   display: block;
   text-align: center;
@@ -454,9 +455,9 @@ a:hover {
 .callout h1 {
   text-align: center;
   position: relative;
-  top: 240px;
+  top: 225px;
   font-weight: 200;
-  font-size: 2.7em;
+  font-size: 3.2em;
 }
 
 .callout h1 span {
