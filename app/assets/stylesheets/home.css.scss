@@ -42,7 +42,7 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 550px;
+  height: 600px;
   background-color: #1c1d1e;
 }
 
@@ -102,7 +102,7 @@ a:hover {
   margin: 0 auto;
   width: 550px;
   position: relative;
-  top: 117px;
+  top: 145px;
   text-align: center;
   animation: fadein 3s;
     -moz-animation: fadein 3s;
@@ -155,7 +155,7 @@ a:hover {
 
 .h-intro p {
   font-size: 1.2em;
-  color: #eee;
+  color: #aaa;
   letter-spacing: 2px;
   top: -40px;
   position: relative;
@@ -164,7 +164,7 @@ a:hover {
 
 
 .h-intro img {
-  top: 116px;
+  top: 140px;
   position: relative;
   margin: 0 auto;
 }
@@ -567,8 +567,7 @@ a:hover {
 
 .about-text {
   float: left;
-  display: inline-block;
-  box-sizing: border-box;
+  /*display: inline-block;*/
   position: relative;
   left: 40px;
   top: -210px;
