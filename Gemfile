@@ -25,6 +25,7 @@ gem 'carrierwave_direct'
 gem 'sidekiq'
 gem "redis", "~> 3.0.6"
 gem "jquery-smooth-scroll-rails", "~> 0.0.3"
+gem 'newrelic_rpm'
 
 
 # Gems used only for assets and not required
