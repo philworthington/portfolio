@@ -11,11 +11,11 @@ By [Phil Worthington](https://github.com/philworthington).
 ## Description
 Personal portfolio built in Rails 3.2.14 with an editable blog using posts written by users with authentication and projects with image upload using AWS for storage. The home page features a one-page design with javascript navigation.
 
-A full testing suite is included, with analytics by New Relic.
+A full testing suite is included, with analytics by [New Relic](http://newrelic.com/).
 
 This site is deployed to Heroku.
 
-www.phil-worthington.com
+(www.phil-worthington.com)
 
 
 ## Authors
