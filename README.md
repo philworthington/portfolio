@@ -15,7 +15,7 @@ A full testing suite is included, with analytics by [New Relic](http://newrelic.
 
 This site is deployed to Heroku.
 
-(www.phil-worthington.com)
+www.phil-worthington.com
 
 
 ## Authors
