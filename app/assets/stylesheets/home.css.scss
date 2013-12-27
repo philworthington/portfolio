@@ -119,6 +119,10 @@ a:hover#menu-icon {
   color: #fff;
 }
 
+#nav-right li a:hover {
+  color: rgba(255,255,255,.8);
+}
+
 #nav-right:hover ul {
   display: block;
 }
