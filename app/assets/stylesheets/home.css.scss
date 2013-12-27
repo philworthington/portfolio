@@ -74,11 +74,13 @@ a:hover {
 
 
 #menu-icon {
-  display: none;
+  display: inline;
   width: 40px;
   height: 28px;
   background: url(../assets/menu.png) center;
   float: right;
+  position: relative;
+  top: 5px;
 }
 
 a:hover#menu-icon {
@@ -93,7 +95,41 @@ a:hover#menu-icon {
   color: #ccc;
 }
 
-.nav li {
+/*#menu-icon {
+    display: inline;
+    position: relative;
+    top: 3px;
+  }*/
+
+  #nav-right ul, #nav-right:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #444;
+    border: 5px solid #444;
+    right: 20px;
+    top: 15px;
+    width: 40%;
+    border-radius: 4px 0 4px 4px;
+  }
+
+  #nav-right li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  #nav-right li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #nav-right:hover ul {
+    display: block;
+  }
+
+/*.nav li {
   position: relative;
   display: inline;
   float: right;
@@ -117,13 +153,13 @@ a:hover#menu-icon {
 
 .nav li a:hover {
   color: #ddd;
-}
+}*/
 
 .h-intro {
   margin: 0 auto;
   width: 85%;
   position: relative;
-  top: 150px;
+  top: 170px;
   text-align: center;
   animation: fadein 3s;
     -moz-animation: fadein 3s;
