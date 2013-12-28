@@ -623,17 +623,14 @@ a:hover#menu-icon {
 
 .about-text {
   float: left;
-  /*display: inline-block;*/
   position: relative;
   left: 40px;
   top: -210px;
-}
-
-.about-text {
   width: 530px;
   margin: 0 auto;
   color: #777;
 }
+
 
 .about-text p {
   line-height: 2em;
@@ -843,17 +840,23 @@ footer p {
     margin-top: 35px;
   }
 
-
-
-/*CALLOUT*/
-.callout h1 {
-  font-size: 2.7em;
-  top: 240px;
-}
+  /*CALLOUT*/
+  .callout h1 {
+    font-size: 2.7em;
+    top: 240px;
+  }
 }
 
-@media only screen and (max-width : 850px) {
-
+@media only screen and (max-width : 870px) {
+  .about-wrapper img {
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      -webkit-animation: fadein 3s;
+      -o-animation: fadein 3s;
+  }
 
 }
 
