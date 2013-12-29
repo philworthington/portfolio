@@ -155,7 +155,7 @@ a:hover#menu-icon {
 
 .h-intro {
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
   position: relative;
   top: 165px;
   text-align: center;
@@ -881,7 +881,7 @@ footer p {
     position: relative;
     margin: 0 auto;
     display: block;
-    margin-top: -20px;
+    margin-top: -10px;
     box-sizing: border-box;
     animation: fadein 3s;
       -moz-animation: fadein 3s;
@@ -916,6 +916,44 @@ footer p {
   .tools-section {
     position: relative;
     margin-bottom: 80px;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  .h-intro {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 180px;
+    text-align: center;
+    animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      -webkit-animation: fadein 3s;
+      -o-animation: fadein 3s;
+  }
+
+  .h-intro h1 {
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .h-intro p {
+    font-size: 1.3em;
+    color: #aaa;
+    letter-spacing: 2px;
+    top: -38px;
+    position: relative;
+    font-weight: 200;
+  }
+
+  .h-intro img {
+    top: 134px;
+    position: relative;
+    margin: 0 auto;
   }
 
 }
