@@ -848,6 +848,17 @@ footer p {
 }
 
 @media only screen and (max-width : 870px) {
+
+  .about {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 940px;
+    height: auto;
+    overflow: auto;
+  }
+
   .about-wrapper {
     /*display: block;*/
     position: relative;
@@ -887,14 +898,24 @@ footer p {
     display: block;
     margin: 0 auto;
     top: 0;
-    width: 90%;
+    width: 100%;
     color: #777;
+    left: 0;
   }
+
+ /* .about-text {
+  float: left;
+  position: relative;
+  left: 40px;
+  top: -210px;
+  width: 530px;
+  margin: 0 auto;
+  color: #777;
+}*/
 
   .tools-section {
     position: relative;
-    /*float: left;*/
-    /*top: -20px;*/
+    margin-bottom: 80px;
   }
 
 }
