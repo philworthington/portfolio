@@ -849,16 +849,28 @@ footer p {
 
 @media only screen and (max-width : 870px) {
   .about-wrapper {
-    display: block;
+    /*display: block;*/
+    position: relative;
     margin: 0 auto;
     vertical-align: baseline;
     margin-top: 90px;
     width: 90%;
+
   }
 
-  .about-wrapper img {
-    display: block;
+  .about-img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    /*background-color: #444;*/
     margin: 0 auto;
+  }
+
+  .about-img img {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    margin-top: -20px;
     box-sizing: border-box;
     animation: fadein 3s;
       -moz-animation: fadein 3s;
@@ -866,18 +878,22 @@ footer p {
       -o-animation: fadein 3s;
   }
 
+  .about-list {
+    display: none;
+  }
+
   .about-text {
     position: relative;
     display: block;
     margin: 0 auto;
-    top: 0px;
+    top: 0;
     width: 90%;
     color: #777;
   }
 
   .tools-section {
     position: relative;
-    float: left;
+    /*float: left;*/
     /*top: -20px;*/
   }
 
