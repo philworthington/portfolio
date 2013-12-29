@@ -848,14 +848,37 @@ footer p {
 }
 
 @media only screen and (max-width : 870px) {
+  .about-wrapper {
+    display: block;
+    margin: 0 auto;
+    vertical-align: baseline;
+    margin-top: 90px;
+    width: 90%;
+  }
+
   .about-wrapper img {
-    float: left;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     box-sizing: border-box;
     animation: fadein 3s;
       -moz-animation: fadein 3s;
       -webkit-animation: fadein 3s;
       -o-animation: fadein 3s;
+  }
+
+  .about-text {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 0px;
+    width: 90%;
+    color: #777;
+  }
+
+  .tools-section {
+    position: relative;
+    float: left;
+    /*top: -20px;*/
   }
 
 }
