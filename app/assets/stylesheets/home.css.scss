@@ -972,7 +972,7 @@ footer p {
   }
 
   .h-intro h1 {
-    font-size: 3em;
+    font-size: 3.1em;
     letter-spacing: 2px;
     color: #fff;
     text-align: center;
@@ -989,7 +989,48 @@ footer p {
   }
 
   .h-intro img {
-    top: 145px;
+    top: 140px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media only screen and (max-width : 434px) {
+
+  .h-intro {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      -webkit-animation: fadein 3s;
+      -o-animation: fadein 3s;
+  }
+
+  .h-intro h1 {
+    font-size: 3.1em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    /*line-height: 50px;*/
+  }
+
+  .h-intro p {
+    font-size: 1.2em;
+    color: #aaa;
+    letter-spacing: 2px;
+    top: -20px;
+    position: relative;
+    font-weight: 200;
+  }
+
+  .h-intro img {
+    top: 121px;
     position: relative;
     margin: 0 auto;
   }
