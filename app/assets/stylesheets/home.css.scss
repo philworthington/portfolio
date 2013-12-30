@@ -268,6 +268,7 @@ a:hover#menu-icon {
     -webkit-animation: fadein 3s;
     -o-animation: fadein 3s;
 }
+
 .projects-btn p {
   /*color: #555;*/
   color: #777;
@@ -866,7 +867,6 @@ footer p {
     vertical-align: baseline;
     margin-top: 90px;
     width: 90%;
-
   }
 
   .about-img {
@@ -916,6 +916,35 @@ footer p {
   .tools-section {
     position: relative;
     margin-bottom: 80px;
+  }
+
+}
+
+@media only screen and (max-width : 675px) {
+
+  .services {
+    position: relative;
+    background: #f2f2f2;
+    color: #fff;
+    /*height: 380px;*/
+    width: 100%;
+    margin-top: -35px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 380px;
+    height: auto;
+    overflow: auto;
+  }
+
+  .services-intro {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    top: 90px;
+    margin-bottom: 180px;
+  }
+
+  .projects-btn p {
+    display: none;
   }
 
 }
