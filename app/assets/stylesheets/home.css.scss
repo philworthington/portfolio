@@ -976,6 +976,13 @@ footer p {
     width: 90%;
   }
 
+
+  /*CALLOUT*/
+  .callout h1 {
+    font-size: 2.7em;
+    top: 210px;
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -1091,6 +1098,13 @@ footer p {
     top: 121px;
     position: relative;
     margin: 0 auto;
+  }
+
+
+  /*CALLOUT*/
+  .callout h1 {
+    font-size: 2.7em;
+    top: 190px;
   }
 
 }
