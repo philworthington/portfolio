@@ -1092,7 +1092,7 @@ footer p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
+    height: 480px;
     background-color: #1c1d1e;
   }
 
@@ -1100,12 +1100,12 @@ footer p {
     margin: 0 auto;
     width: 100%;
     position: relative;
-    top: 150px;
+    top: 90px;
     text-align: center;
-    animation: none;
-      -moz-animation: none;
-      -webkit-animation: none;
-      -o-animation: fadein none;
+    animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      -webkit-animation: fadein 3s;
+      -o-animation: fadein 3s;
   }
 
   .h-intro h1 {
