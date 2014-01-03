@@ -903,16 +903,6 @@ footer p {
     left: 0;
   }
 
- /* .about-text {
-  float: left;
-  position: relative;
-  left: 40px;
-  top: -210px;
-  width: 530px;
-  margin: 0 auto;
-  color: #777;
-}*/
-
   .tools-section {
     position: relative;
     margin-bottom: 80px;
@@ -945,16 +935,6 @@ footer p {
 
   .projects-btn p {
     display: none;
-    /*color: #777;
-    font-size: .9em;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 8px 25px;
-    border: 3px solid #777;
-    display: inline;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;*/
   }
 
 
@@ -1173,6 +1153,17 @@ footer p {
 }
 
 
+@media only screen and (max-width : 320px) {
+
+/*.services {
+  position: relative;
+  background: #f2f2f2;
+  color: #fff;
+  height: 380px;
+  width: 100%;
+  top: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}*/
 
 
-
+}
