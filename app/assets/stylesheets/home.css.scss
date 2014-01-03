@@ -1046,6 +1046,16 @@ footer p {
     margin: 0 auto;
   }
 
+
+  .tools-list {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 5px;
+    /*width: 85%;*/
+  }
+
 }
 
 @media only screen and (max-width : 481px) {
@@ -1089,6 +1099,19 @@ footer p {
 
 @media only screen and (max-width : 434px) {
 
+  .header {
+    display: table;
+    width: 100%;
+    position: relative;
+    background: url(../assets/bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    background-color: #1c1d1e;
+  }
+
   .h-intro {
     margin: 0 auto;
     width: 100%;
@@ -1120,9 +1143,10 @@ footer p {
   }
 
   .h-intro img {
-    top: 121px;
+    top: 0px;
     position: relative;
     margin: 0 auto;
+    /*display: none;*/
   }
 
 
