@@ -982,6 +982,23 @@ footer p {
     display: block;
     margin-top: 40px;
     width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .item2 {
+    position: relative;
+    /*height: 1050px;*/
+    width: 100%;
+    background-color: #f2f2f2;
+    /*background-color: #333;*/
+    border-bottom: 1px solid #e5e5e5;
+    height: auto;
+    overflow: auto;
+  }
+
+  .item3 {
+    height: auto;
+    overflow: auto;
   }
 
 
@@ -1113,6 +1130,20 @@ footer p {
   .callout h1 {
     font-size: 2.7em;
     top: 190px;
+  }
+
+  .call-to-action h3 {
+    clear: both;
+    text-align: center;
+    position: relative;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    color: #444;
+    width: 90%;
+
   }
 
 }
