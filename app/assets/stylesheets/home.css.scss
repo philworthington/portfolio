@@ -1096,6 +1096,10 @@ footer p {
     background-color: #1c1d1e;
   }
 
+  #menu-icon {
+    z-index: 1;
+  }
+
   #nav-right ul, #nav-right:active ul {
     display: none;
     position: absolute;
@@ -1119,6 +1123,7 @@ footer p {
       -moz-animation: fadein 3s;
       -webkit-animation: fadein 3s;
       -o-animation: fadein 3s;
+    z-index: 0;
   }
 
   .h-intro h1 {
