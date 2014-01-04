@@ -1097,7 +1097,7 @@ footer p {
   }
 
   #menu-icon {
-    z-index: 1;
+    z-index: 999;
   }
 
   #nav-right ul, #nav-right:active ul {
@@ -1110,7 +1110,7 @@ footer p {
     top: 16px;
     width: 100px;
     border-radius: 5px 0 5px 5px;
-    z-index: 1;
+    z-index: 999;
   }
 
   .h-intro {
@@ -1123,7 +1123,7 @@ footer p {
       -moz-animation: fadein 3s;
       -webkit-animation: fadein 3s;
       -o-animation: fadein 3s;
-    z-index: 0;
+    z-index: 1;
   }
 
   .h-intro h1 {
@@ -1132,7 +1132,6 @@ footer p {
     color: #fff;
     text-align: center;
     font-weight: 600;
-    z-index: 0;
     /*line-height: 50px;*/
   }
 
@@ -1179,23 +1178,8 @@ footer p {
     margin-bottom: 25px;
     color: #444;
     width: 90%;
-
   }
 
 }
 
 
-@media only screen and (max-width : 320px) {
-
-/*.services {
-  position: relative;
-  background: #f2f2f2;
-  color: #fff;
-  height: 380px;
-  width: 100%;
-  top: 20px;
-  border-bottom: 1px solid #e5e5e5;
-}*/
-
-
-}
