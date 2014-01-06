@@ -1170,3 +1170,18 @@ footer p {
 }
 
 
+@media only screen and (max-width : 320px) {
+
+  .callout {
+    color: #fff;
+    display: table;
+    height: 600px;
+    width: 100%;
+    background: url(../assets/bg4.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
