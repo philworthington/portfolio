@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.0'
+ruby '2.0.0'
 
 gem 'rails', '3.2.14'
 
@@ -10,7 +10,6 @@ gem 'rails', '3.2.14'
 
 # gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 gem 'jquery-rails'
-gem "minitest-rails"
 gem 'devise'
 gem 'pundit'
 gem 'faker'
@@ -18,7 +17,6 @@ gem 'omniauth-twitter'
 gem 'figaro'
 gem "strong_parameters"
 gem 'carrierwave'
-# gem 'rmagick'
 gem 'fog'
 gem 'unf'
 gem 'carrierwave_direct'
@@ -26,6 +24,8 @@ gem 'sidekiq'
 gem "redis", "~> 3.0.6"
 gem "jquery-smooth-scroll-rails", "~> 0.0.3"
 gem 'newrelic_rpm'
+# gem 'nokogiri', '1.6.1'
+# gem 'rmagick'
 
 
 # Gems used only for assets and not required
@@ -43,7 +43,7 @@ end
 
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
   gem 'rails_12factor'
 end
 
@@ -53,8 +53,7 @@ group :development, :test do
   gem "minitest-focus"
   gem "minitest-colorize"
   gem 'sqlite3'
-  gem "minitest-rails"
-  gem "capybara-webkit"
+  # gem "capybara-webkit"
   gem "launchy"
 end
 
