@@ -18,7 +18,7 @@ gem 'omniauth-twitter'
 gem 'figaro'
 gem "strong_parameters"
 gem 'carrierwave'
-gem 'rmagick'
+# gem 'rmagick'
 gem 'fog'
 gem 'unf'
 gem 'carrierwave_direct'

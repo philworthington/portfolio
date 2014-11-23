@@ -573,58 +573,47 @@ a:hover#menu-icon {
   right: 235px;
 }
 
-.about-list ul li {
+.about-listItem {
+  position: relative;
   list-style: none;
   padding: 5px 0;
+  width: 200px;
 }
 
-.about-list ul li a {
+.about-listLink {
   text-decoration: none;
 }
 
-.about-list ul li i {
+.about-listLink.dark:hover i,
+.about-listLink.dark:hover span {
+  color: #8CC665;
+}
+
+.about-listLink.blue:hover i,
+.about-listLink.blue:hover span {
+  color: #1C87BD;
+}
+
+.about-listLink.pink:hover i,
+.about-listLink.pink:hover span {
+  color: #EA4C89;
+}
+
+.about-listLink.red:hover i,
+.about-listLink.red:hover span {
+  color: #F34432;
+}
+
+.about-listIcon {
   color: #999;
 }
 
-.about-list ul li span {
-  position: relative;
-  left: 20px;
-  top: -5px;
+.about-listText {
+  position: absolute;
+  left: 50px;
   color: #ccc;
+  line-height: 30px;
 }
-
-.dark span:hover {
-  color: #8CC665;
-}
-
-.dark i:hover {
-  color: #8CC665;
-}
-
-.blue span:hover {
-  color: #1C87BD;
-}
-
-.blue i:hover {
-  color: #1C87BD;
-}
-
-.pink span:hover {
-  color: #EA4C89;
-}
-
-.pink i:hover {
-  color: #EA4C89;
-}
-
-.red span:hover {
-  color: #F34432;
-}
-
-.red i:hover {
-  color: #F34432;
-}
-
 
 .about-text {
   float: left;
@@ -795,7 +784,7 @@ footer {
   top: 15px;
 }
 
-.list-inline {
+.footer-list {
   list-style: none;
   margin: 0 auto;
   text-align: center;
@@ -804,20 +793,31 @@ footer {
   right: 19px;
 }
 
-.list-inline li {
+.footer-listItem {
   display: inline;
   padding: 10px;
 }
 
-.list-inline li a {
+.footer-listLink {
   color: #777;
   text-decoration: none;
 }
 
-.list-inline li a:hover {
-  /*color: #1abc9c;*/
-  color: #17c2a0;
+.footer-listLink.dark:hover i {
+  color: #8CC665;
 }
+
+.footer-listLink.blue:hover i {
+  color: #1C87BD;
+}
+
+.footer-listLink.red:hover i {
+  color: #F34432;
+}
+
+// .footer-list li a:hover {
+//   color: #17c2a0;
+// }
 
 footer p {
   text-align: center;
